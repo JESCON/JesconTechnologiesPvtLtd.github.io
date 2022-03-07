@@ -15,20 +15,21 @@
     display: block;
     width: 100%;
     height: 100vh;
-    background: linear-gradient(90deg,rgba(17, 77, 42, 0.7), rgba(0, 112, 192, 0.7));
+    background: white;
+    /* background: linear-gradient(90deg,rgba(17, 77, 42, 0.7), rgba(0, 112, 192, 0.7)); */
     position: absolute;
     top: 0;
     z-index: -1;
 }
 .services-para-text{
-    color: #fff;
+    color: rgb(0, 0, 0);
     text-align: center;
     font-size: 17px;
     font-family: roboto;
 }
 .services-btn{
     width: 100%;
-    background: rgba(255,255,255,0.075);
+    background: linear-gradient(10deg,rgba(20, 91, 185, 0.7), rgba(14, 136, 223, 0.7));
     padding: 40px 20px;
     margin: 0 auto;
     transition: 0.3s ease-in-out;

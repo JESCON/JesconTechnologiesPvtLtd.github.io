@@ -121,10 +121,12 @@ h1, h2, h3, h4, h5, h6 {
 --------------------------------------------------------------*/
 #header {
   transition: all 0.5s;
-  background: rgb(255, 255, 255);
+  /* background: linear-gradient(90deg,rgb(74, 110, 228), rgb(31, 162, 255)); */
+  background: white;
+  /* background: rgb(247, 68, 68); */
   z-index: 997;
   padding: 15px 0;
-  border-bottom: 1px solid #ffffff;
+  border-bottom: 1px linear-gradient(90deg,rgb(17, 77, 42), rgb(0, 112, 192));;
 }
 
 #header.header-scrolled {
